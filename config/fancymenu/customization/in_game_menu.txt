@@ -1,0 +1,108 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=398282%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -58
+}
+
+customization {
+  identifier = %id=504330%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504330%
+  orientation = mid-centered
+  x = -351
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=398258%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -82
+}
+
+customization {
+  identifier = %id=398354%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=504306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504306%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=504306%
+  width = 204
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=398330%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -34
+}
+
+customization {
+  identifier = %id=504282%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -58
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 4
+  width = 98
+  actionid = 3cec6868-b394-4891-8056-a83df621ac471643481254743
+  action = addbutton
+  y = -34
+  label = Report Bugs
+  value = https://github.com/MarkNoName/TrueSurvival/issues
+  height = 20
+}
+

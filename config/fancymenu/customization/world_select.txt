@@ -1,0 +1,37 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_526
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = kubejs/assets/truesurvival/textures/gui/background.png
+  action = texturizebackground
+}
+
+customization {
+  path = kubejs/assets/truesurvival/sound/sb_luminance.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = kubejs/assets/truesurvival/textures/gui/glow.png
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = 1a5e6144-67dc-4ce9-bed2-7ef463c2872e1643483058686
+  y = 0
+  height = %guiheight%
+}
+

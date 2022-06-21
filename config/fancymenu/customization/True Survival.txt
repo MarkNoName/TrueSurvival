@@ -1,0 +1,247 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = kubejs/assets/truesurvival/textures/gui/background.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  path = kubejs/assets/truesurvival/sound/sb_luminance.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = 18
+}
+
+customization {
+  identifier = %id=400322%
+  width = 246
+  action = resizebutton
+  height = 9
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\truesurvival\textures\gui\multiplayer_on.png
+  backgroundnormal = kubejs\assets\truesurvival\textures\gui\multiplayer_off.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = 39
+}
+
+customization {
+  identifier = %id=400382%
+  width = 246
+  action = resizebutton
+  height = 9
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\truesurvival\textures\gui\settings_on.png
+  backgroundnormal = kubejs\assets\truesurvival\textures\gui\settings_off.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = 73
+}
+
+customization {
+  identifier = %id=502382%
+  width = 246
+  action = resizebutton
+  height = 9
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\truesurvival\textures\gui\exit_on.png
+  backgroundnormal = kubejs\assets\truesurvival\textures\gui\exit_off.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = -4
+}
+
+customization {
+  identifier = %id=400298%
+  width = 246
+  action = resizebutton
+  height = 9
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs\assets\truesurvival\textures\gui\sp_on.png
+  backgroundnormal = kubejs\assets\truesurvival\textures\gui\sp_off.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  showname = false
+  orientation = bottom-centered
+  crouching = false
+  x = 102
+  slim = true
+  actionid = 8556f45b-9d48-4a74-aa2f-0aac7500b3b41642012142037
+  action = addentity
+  y = 61
+  scale = 180
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  path = kubejs/assets/truesurvival/textures/gui/ts.png
+  orientation = mid-left
+  x = 54
+  width = 194
+  action = addtexture
+  actionid = 81fb7ef0-e872-41b6-b2fe-25ac6bbf89161642013854640
+  y = -132
+  height = 53
+}
+
+customization {
+  path = kubejs/assets/truesurvival/textures/gui/head.png
+  orientation = mid-left
+  x = 54
+  width = 192
+  action = addtexture
+  actionid = edf76bb0-a7da-4a95-9d03-2b0eb58e62ec1642018353117
+  y = -41
+  height = 11
+}
+
+customization {
+  path = kubejs/assets/truesurvival/textures/gui/glow.png
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = e44f18b2-9cb3-4d63-bea3-f28c371a1ef81643305184565
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  path = kubejs/assets/truesurvival/textures/gui/bottom_bar.png
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = 9755902c-8a30-48a5-a1f3-71d6013bc23a1643305194115
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  path = kubejs/assets/truesurvival/textures/gui/info.png
+  orientation = mid-left
+  x = 0
+  width = 639
+  action = addtexture
+  actionid = 8457f130-da7f-465f-bce5-e365d6edf5b51643305206830
+  y = -180
+  height = 360
+}
+

@@ -1,0 +1,4 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 19, 2022, 8:33:32 PM
+
+#enhancedcelestials:has_lunar_events
+- minecraft:overworld (from Enhanced Celestials)

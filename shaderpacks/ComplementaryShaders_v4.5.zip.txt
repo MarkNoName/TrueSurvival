@@ -1,0 +1,5 @@
+#Mon Jun 20 17:38:33 CEST 2022
+EMISSIVE_COPPER_ORE=false
+shadowDistance=80.0
+ROUND_SUN_MOON=false
+VANILLA_SKYBOX=true

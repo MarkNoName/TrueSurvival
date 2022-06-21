@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "skill": "alchemy",
+    "level": 24,
+    "item": "minecraft:custom_item",
+    "object": "dehydration:netherite_leather_flask"
+}

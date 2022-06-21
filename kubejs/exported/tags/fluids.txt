@@ -1,0 +1,9 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 29, 2022, 7:32:03 PM
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water

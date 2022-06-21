@@ -1,0 +1,138 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_4749
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  path = kubejs/assets/truesurvival/sound/sb_luminance.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505154%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = 64
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = 64
+}
+
+customization {
+  identifier = %id=425130%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 94
+}
+
+customization {
+  path = kubejs/assets/truesurvival/textures/gui/warning/cover.png
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = c5c970b8-76fa-4f77-97eb-be7f1582f9e51643485044869
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 0
+  actionid = fe2634ed-0943-492a-8e28-61b59317f24f1643478178219
+  action = addtext
+  y = -19
+  scale = 1.0
+  alignment = centered
+  value = Keep in mind that issues can and will eventually occur. We are also not responsible for any
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  x = 188
+  actionid = 01fe33d5-5717-4624-b0ed-a6ec783afa2f1643478360736
+  action = addtext
+  y = 31
+  scale = 1.0
+  alignment = centered
+  value = - TrueSurvival Team
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 0
+  actionid = 8f85cfc1-b11c-496f-8466-2cd4915aebb11643478707368
+  action = addtext
+  y = -4
+  scale = 1.0
+  alignment = centered
+  value = damage that you encounter. For eg: Getting banned from vanilla servers while playing with this
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 0
+  actionid = 64463ad5-036f-4ad3-a05b-70242d0b1ee01643478967595
+  action = addtext
+  y = 11
+  scale = 1.0
+  alignment = centered
+  value = version of "True Survival" installed.
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 0
+  actionid = d8782bf1-f955-4334-876d-627b3dc7e2291643479970984
+  action = addtext
+  y = -49
+  scale = 1.0
+  alignment = centered
+  value = Attention! This is a Beta version of "True Survival".
+}
+
+customization {
+  path = kubejs/assets/truesurvival/textures/gui/warning/warning.png
+  orientation = mid-centered
+  x = -21
+  width = 43
+  action = addtexture
+  actionid = 2df8dce2-c053-4f2c-82d9-dba76b8b7b341643480665575
+  y = -105
+  height = 43
+}
+

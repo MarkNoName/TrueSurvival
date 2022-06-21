@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "skill": "agility",
+    "level": 24,
+    "item": "minecraft:custom_item",
+    "object": "bosses_of_mass_destruction:earthdive_spear"
+}
